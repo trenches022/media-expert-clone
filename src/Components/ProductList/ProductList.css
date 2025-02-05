@@ -1,0 +1,85 @@
+
+.product-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  align-items: center;
+}
+
+.product-card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+  width: 600px; 
+}
+
+.product-card:hover {
+  transform: scale(1.03);
+}
+
+.product-content {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.product-image {
+  width: 180px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.product-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-info h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.original-price {
+  text-decoration: line-through;
+  color: gray;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.discounted-price {
+  font-size: 20px;
+  font-weight: bold;
+  color: #d32f2f;
+}
+
+.add-to-cart-btn {
+  background: #fff200;
+  border: none;
+  width: 50%;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background 0.2s ease-in-out;
+}
+
+.add-to-cart-btn:hover {
+  background: #e6be00;
+}
