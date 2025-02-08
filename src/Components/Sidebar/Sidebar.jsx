@@ -10,6 +10,7 @@ const Sidebar = () => {
         <Link to='/smartphones'>Smartfony</Link>
         <Link to='/laptops'>Laptopy</Link>
         <Link to='/gaming'>Gaming</Link>
+        <Link to='/tv'>Telewizory</Link>
       </nav>
     </div>
   )

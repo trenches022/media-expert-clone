@@ -5,6 +5,7 @@ import Sidebar from "./Components/Sidebar/Sidebar";
 import Header from "./Components/Header/Header";
 import Smartphones from "./Components/ProductList/Smartphones/Smartphones";
 import Laptops from "./Components/ProductList/Laptops/Laptops";
+import Tv from "./Components/ProductList/Tv/Tv";
 import Gaming from "./Components/ProductList/Gaming/Gaming";
 import './App.css';
 
@@ -21,6 +22,7 @@ const App = () => {
               <Route path="/smartphones" element={<Smartphones />} />
               <Route path="/laptops" element={<Laptops />} />
               <Route path="/gaming" element={<Gaming />} />
+              <Route path="/tv" element={<Tv />} />
               <Route path="/cart" element={<Cart />} />
             </Routes>
           </div>
