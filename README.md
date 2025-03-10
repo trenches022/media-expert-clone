@@ -2,7 +2,7 @@
 
 A web application built with React.js, Zustand, HTML, CSS, and JavaScript, featuring a dynamic shopping cart, product search, and real-time price calculations with discounts.
 
-![Store App Screenshot](https://raw.githubusercontent.com/trenches022/media-expert-clone/main/mediaex-clone-screenshot.png)
+![Store App Screenshot](https://raw.githubusercontent.com/trenches022/media-expert-clone/main/assets/mediaex-clone-screenshot.png)
 
 #  Key Features
 
@@ -36,5 +36,5 @@ A web application built with React.js, Zustand, HTML, CSS, and JavaScript, featu
 * Users can remove items from the cart.
 * The cart icon displays the number of items inside.
 
-![Store App Screenshot](https://raw.githubusercontent.com/trenches022/media-expert-clone/main/mediaex-clone-screenshot1.png)
-![Store App Screenshot](https://raw.githubusercontent.com/trenches022/media-expert-clone/main/mediaex-clone-screenshot2.png)
+![Store App Screenshot](https://raw.githubusercontent.com/trenches022/media-expert-clone/main/assets/mediaex-clone-screenshot1.png)
+![Store App Screenshot](https://raw.githubusercontent.com/trenches022/media-expert-clone/main/assets/mediaex-clone-screenshot2.png)
